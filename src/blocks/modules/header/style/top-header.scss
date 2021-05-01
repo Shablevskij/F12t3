@@ -45,10 +45,72 @@
     width: 51px;
     height: 30px;
     background-position: -5px -5px;
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
+.burger{
+    width: 50px;
+}
+.menu-btn{
+    width: 50px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    
+    
+    
+}
+.menu-btn span{
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    background-color: #ffffff;
+}
+.menu-btn span:nth-last-of-type(2){
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    background-color: #ffffff;
+}
+.menu-btn span:nth-last-of-type(3){
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    background-color: #ffffff;
+}
 
+
+.menu{
+    position: fixed;
+    visibility: hidden;
+    top: 100px;
+    left: 0;
+    background-color: #1b7fd0;
+    
+    
+}
+.menu ul{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    
+}
+
+.menu li{
+    list-style-type: none;
+    
+}
+.burger:hover .menu{
+    
+    visibility: visible;
+
+}
 /* .sprite-Chat-Icon {
     width: 51px;
     height: 30px;
