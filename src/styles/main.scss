@@ -1,4 +1,4 @@
-@import "helpers/variables";
+@import "helpers/variables.scss";
 @import "helpers/mixins";
 @import "helpers/functions";
 @import "vendor/libs";
@@ -6,3 +6,4 @@
 @import "base/general";
 @import "bootstrap/bootstrap-grid";
 @import "../blocks/modules";
+@import "../fonts/stylesheet.css"

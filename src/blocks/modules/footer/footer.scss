@@ -1,0 +1,125 @@
+.pay-bg{
+    background-color: #caddea;
+}
+.payments{
+    display: flex;
+    justify-content: space-between;
+    
+
+    .cards{
+        width: 200px;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        li{
+            padding-top: 15px;
+            height: 50px;
+            list-style-type: none;
+            margin-left: 2px;
+        }
+        img{
+            height: 50px;
+        }
+    }
+    .social_icons{
+        width: 150px;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        li{
+            padding-top: 15px;
+            height: 50px;
+            list-style-type: none;
+            margin-left: 10px;
+            list-style-type: none;
+        }
+    }
+
+}
+.footer-bg{
+    background: #013056 url(../img/Bg2.svg) center;
+    height: 450px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer_info{
+    display: flex;
+    justify-content: space-around;
+   
+    
+    li{
+        font-family: 'Arial Narrow';
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #caddea;
+        list-style-type: none;
+        padding-right: 10px;
+    }
+}
+.plus_menu{
+    margin-top: 30px;
+    position: relative;
+
+    .circle{
+        width: 35px;
+        height: 35px;
+        background-color: #caddea;
+        border-radius:50%;
+        position: absolute;
+        bottom: -17px;
+        left: 50%;
+    }
+    .circle::after {
+        content: " ";
+        position: absolute;
+        display: block;
+        background-color: #164870;
+        height: 5px;
+        margin-top: -5px;
+        top: 56%;
+        left: 5px;
+        right: 5px;
+        z-index: 4;
+    }
+    .circle::before {
+        content: " ";
+        position: absolute;
+        display: block;
+        background-color:  #164870;
+        width: 5px;
+        margin-left: -2px;
+        left: 50%;
+        top: 5px;
+        bottom: 5px;
+        z-index: 4;
+    }
+}
+.footer_menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: center;
+    li{
+        list-style-type: none;
+        a{
+            font-family: Roboto;
+            font-size: 16px;
+            line-height: 42px;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+}
+.copyright{
+    font-family: 'Arial Narrow';
+    font-size: 16px;
+    line-height: 2.5;
+    font-weight: 400;
+    color: #caddea;
+    text-align: center;
+    
+}
+
